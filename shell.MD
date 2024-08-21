@@ -13,7 +13,7 @@ There are different types of shells like Zshell, CShell, Kshell. But Bash is pop
 **NOTE: Consider Bash shell or Shell both are same**
 
 # How to call another shell script from current shell script
-* If you need to preserve variables and functions from the current shell in the second script, use source or ..
+* If you need to preserve variables and functions from the current shell in the second script, use source or .  .
 * If you want to run the second script in a separate shell process, use sh or bash.
 * If you want to replace the current shell with the second script, use exec.
 * If you want to execute the contents of the second script as if they were typed directly into the current shell, use eval.
